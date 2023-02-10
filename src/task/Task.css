@@ -1,0 +1,53 @@
+button {
+  background: none;
+  border: none;
+}
+
+form {
+  display: flex;
+}
+
+.add-button {
+  background-color: rgb(123, 153, 227);
+  border-radius: 6px;
+  margin: 0 4px;
+}
+
+.true {
+  background-color: rgba(209, 204, 211, 0.925);
+}
+
+.true .task-text {
+  text-decoration: line-through;
+}
+
+/* ----------- */
+
+.task-wrapper {
+  border-radius: 4px;
+  padding: 8px 6px;
+  margin: 10px 0;
+  box-shadow: 0 0 3px #240046;
+  background-color: rgba(246, 241, 249, 0.925);
+}
+
+.task-wrapper div {
+  display: inline-block;
+}
+
+.task-rm-btn {
+  font-size: 16px;
+}
+
+.task-text-wrapper {
+  margin: 4px;
+  box-sizing: border-box;
+  width: calc(100% - 60px);
+}
+
+.task-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* word-wrap: break-word; */
+  white-space: nowrap;
+}
