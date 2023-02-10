@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import "./Task.css";
 
